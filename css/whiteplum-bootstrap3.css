@@ -4307,7 +4307,7 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: #ffffff;
-  background-color: #0062d3;
+  background-color: #7a62d3;
 }
 .jumbotron h1 {
   line-height: 1;
@@ -6010,7 +6010,8 @@ h1 small,
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
 }
 .panel-default {
-  border-top-color: #0062d3;
+ /* border-top-color: #0062d3;*/
+    border-top-color: #7a62d3;
 }
 .panel-heading {
   background: transparent;
