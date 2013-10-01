@@ -53,7 +53,7 @@
                 Our mission is to provide quality software and web products at budget-friendly costs to our customers.
                 We believe our services will help provide a better future for our community by growing businesses both large and small.
             </p>
-            <button type="button" class="btn-lg">
+            <button type="button" class=" btn btn-lg btn-info">
                 Click meee!
             </button>
        </div>
@@ -85,7 +85,7 @@
             <div class="row-fluid">
                 <div class="col-lg-11 panel panel-default" id="content-formatting">
                     <h2>
-                        <i class="icon-hdd" style="padding-top: 0.3em;"></i>&nbsp;&nbsp;Portfolio
+                        <i class="icon-folder-open" style="padding-top: 0.3em;"></i>&nbsp;&nbsp;Portfolio
                     </h2>
                     <p>
                         Our portolio demonstrates our talents and highlights some our past work. Please feel free to browse around!
@@ -187,14 +187,38 @@
         </div>
         -->
         <hr>
-            <div class="col-lg-9" id="forms">
+            <div class="col-lg-9 panel panel-default" id="forms">
                 <h2>
                     <i class="icon-envelope" style="padding-top: 0.3em;"></i>&nbsp;&nbsp;Contact
                 </h2>
                 <p>
                     If you have any questions about our services or products or would like a free quote, you can contact us with the form below.
                 </p>
+                <div class="panel-body">
+                    <form>
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="userName">What is your name?</label>
+                                <input type="text" class="form-control" id="userName" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="userEmail">What is your email address? We will respond to this email within a day.</label>
+                                <input type="text" class="form-control" id="userEmail" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="userMessage">Send us a Message!</label><br>
+                                <textarea class="form-control" id="userMessage" placeholder="Enter Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-info">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </div>
+        <footer>
+           <div class="panel-footer">
+            This is a footer.
+           </div>
+        </footer>
     </body>
     </html>
