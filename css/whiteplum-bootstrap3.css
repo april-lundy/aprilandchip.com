@@ -290,7 +290,8 @@ textarea {
   background-image: none;
 }
 a {
-  color: #7a62d3;
+  /*color: #7a62d3;*/
+  color: #009cc7;
   text-decoration: none;
 }
 a:hover,
@@ -2129,7 +2130,7 @@ fieldset[disabled] .btn-link:focus {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 0px;
-  background-color: #6497b1;
+  background-color: #009cc7;
   color: #ffffff;
 }
 .btn-sm,
@@ -3843,7 +3844,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-color: #eeeeee;
 }
 .navbar-default .navbar-brand {
-  color: #6497b1;
+  color: #009cc7;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -5977,7 +5978,7 @@ h1 small,
 }
 .navbar-static-top,
 .navbar-fixed-top {
-  border-top: 2px solid #6497b1;
+  border-top: 2px solid #c72a00;
   /*border-top: 2px solid #7a62d3;*/
   -webkit-box-shadow: 0px -3px 12px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px -3px 12px rgba(0, 0, 0, 0.5);
@@ -6015,7 +6016,8 @@ h1 small,
 }
 .panel-default {
  /* border-top-color: #0062d3;*/
-    border-top-color: #7a62d3;
+ /*   border-top-color: #7a62d3;*/
+    border-top-color: #c72a00;
 }
 .panel-heading {
   background: transparent;
