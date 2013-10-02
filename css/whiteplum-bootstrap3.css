@@ -4311,7 +4311,7 @@ a.list-group-item.active > .badge,
   line-height: 2.1428571435;
   color: #ffffff;
  /* background-color: #7a62d3;*/
-  background-color: #c72a00;
+  background-color: #00c78e;
 }
 .jumbotron h1 {
   line-height: 1;
@@ -5978,7 +5978,7 @@ h1 small,
 }
 .navbar-static-top,
 .navbar-fixed-top {
-  border-top: 2px solid #c72a00;
+  border-top: 2px solid #009cc7;
   /*border-top: 2px solid #7a62d3;*/
   -webkit-box-shadow: 0px -3px 12px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px -3px 12px rgba(0, 0, 0, 0.5);
@@ -6017,7 +6017,7 @@ h1 small,
 .panel-default {
  /* border-top-color: #0062d3;*/
  /*   border-top-color: #7a62d3;*/
-    border-top-color: #c72a00;
+    border-top-color: #009cc7;
 }
 .panel-heading {
   background: transparent;
