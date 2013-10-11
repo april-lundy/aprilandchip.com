@@ -20,3 +20,28 @@
 {
     padding-bottom: 9px;
 }
+
+@font-face{
+    
+  font-family: "Quicksand-Regular";
+  src: url('Quicksand/Quicksand-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+    
+  font-family: "Raleway-Thin";
+  src: url('Raleway/Raleway-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face{
+    
+  font-family: "Imroman10-regular";
+  src: url('Latin-Modern-Roman/Imroman10-regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
