@@ -6017,7 +6017,8 @@ h1 small,
 .panel-default {
  /* border-top-color: #0062d3;*/
  /*   border-top-color: #7a62d3;*/
-    border-top-color: #009cc7;
+ /*   border-top-color: #009cc7;*/
+  border-top-color: #00c78e;
 }
 .panel-heading {
   background: transparent;
