@@ -36,7 +36,7 @@ Mail = (function(W, $) {
 			userEmail: $email.val(),
 			userMessage: $email.val()
 		};
-		$.post('/mailService.php', data, mailerResponse);
+		$.post('/mail.php', data, mailerResponse);
 	}
 
 	function showSpinner() {
