@@ -1,6 +1,6 @@
 Mail = (function(W, $) {
 	// basic selectors
-	var $name, $email, $message, $error_div;
+	var $name, $email, $message, $notification;
 	
 	function validateAll() {
 		var validation_objects = [
@@ -47,8 +47,22 @@ Mail = (function(W, $) {
 		// TODO: implement this
 	}
 
+	function notify(message, positive) {
+		var notification_class = 'alert-error';
+		if(positive) {
+			notification_class = 'alert-success';
+		}
+		$notification.addClass('alert')
+			.removeClass('alert-error alert-success')
+			.addClass(notification_class)
+			.html(message);
+	}
+
 	function mailerResponse(data) {
-		console.log(data);
+		data = JSON.parse(data);
+		success = data.status == 'success';
+		message = data.message;
+		notify(message, success);
 		hideSpinner();
 	}
 
@@ -58,7 +72,7 @@ Mail = (function(W, $) {
 		var errors = validateAll();
 		if(errors.length > 0) {
 			hideSpinner();
-			$error_div.html(errors.join(', '));
+			notify(errors.join(', '), false);
 		}
 		else {
 			sendMail();
@@ -69,7 +83,7 @@ Mail = (function(W, $) {
 		$name = $('#userName');
 		$email = $('#userEmail');
 		$message = $('#userMessage');	
-		$error_div = $('.alert.alert-stay.error');
+		$notification = $('#notification');
 		$('#userSubmit').click(handleClick);
 	}
 
